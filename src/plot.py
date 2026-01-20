@@ -98,7 +98,7 @@ async def select_properties(request: str, schema: dict):
     client: AsyncInstructor = from_openai(AsyncOpenAI())
     try:
         generation = await client.chat.completions.create(
-            model="gpt-4.1-unfiltered",
+            model="gpt-4.1",
             temperature=0,
             response_model=model,
             messages=messages,
