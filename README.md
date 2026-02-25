@@ -1,4 +1,4 @@
-# ichatbio-agent-example
+# ichatbio-example-agent
 
 A template for making new iChatBio agents.
 
